@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5480062e49.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="container-fluid mt-2">
+        <h1 class="text-center">WEATHER DETECTOR</h1>
+        <div class="row">
+            <div class="card ">
+                <div class="card-body">
+                    <div class="col-12 text-center">
+                        <input type="text" placeholder="enter city name " id="city" style="margin-top:150px;">
+                    </div>
+                </div>
+                <div class="col-12 text-center" style="margin-bottom: 20px;padding: 20px;">
+                    <button class="btn btn-outline-primary" onclick="fetchWeather()"><i
+                            class="fas fa-search-minus"></i>search</button>
+                    <button class="btn btn-outline-warning" onclick="resetButton()">reset</button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+        <div class="row" id="result">
+
+        </div>
+
+    </div>
+</body>
+
+
+</html>
