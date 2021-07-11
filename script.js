@@ -27,7 +27,7 @@ function displayDetails(city) {
                 
                 </div>
                 <div class="col-lg-4 col-md-6 col-6">
-                <label class=" text-capitalize text-right"style="font-size:60px;">Country<b> ${country}</b></label>
+                <label class=" text-capitalize text-right"style="font-size:50px;">Country<b> ${country}</b></label>
                 </div>
                 </div>
                 <div class="row">
