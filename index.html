@@ -16,25 +16,28 @@
 
 <body>
 
-    <div class="container-fluid mt-2">
+    <div class="container-fluid">
+        <div class="section1">
         <h1 class="text-center">WEATHER DETECTOR</h1>
         <div class="row">
-            <div class="card ">
+            <div class="card card1">
                 <div class="card-body">
                     <div class="col-12 text-center">
-                        <input type="text" placeholder="enter city name " id="city" style="margin-top:150px;">
+                        <input type="text" placeholder="enter city name "  class="form-control-lg"id="city" style="margin-top:150px;">
                     </div>
                 </div>
                 <div class="col-12 text-center" style="margin-bottom: 20px;padding: 20px;">
-                    <button class="btn btn-outline-primary" onclick="fetchWeather()"><i
+                    <button class="btn btn-outline-primary btn1" onclick="fetchWeather()"><i
                             class="fas fa-search-minus"></i>search</button>
-                    <button class="btn btn-outline-warning" onclick="resetButton()">reset</button>
+                    <button class="btn btn-outline-warning btn2" onclick="resetButton()">reset</button>
                 </div>
 
 
             </div>
         </div>
     </div>
+    </div>
+    <div class="container-fluid section2">
         <div class="row" id="result">
 
         </div>
