@@ -22,7 +22,7 @@ function displayDetails(city) {
             <div class="card-body">
                 <div class="row mt-5">
                 <div class="col-lg-8 col-md-4 col-6">
-                <label style="font-size:60px"><b>${temp}C°</b></label><br>
+                <label style="font-size:50px"><b>${temp}C°</b></label><br>
                 <label class=" text-capitalize text-left" style="font-size:20px"><b> ${weather_des}</b></label>
                 
                 </div>
