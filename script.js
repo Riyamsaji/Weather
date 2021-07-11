@@ -17,16 +17,16 @@ function displayDetails(city) {
         <div class="card" style="height: 600px;">
             <div class="card-body bg-light">
                 <div class="row mt-5">
-                <div class="col-lg-3 col-md-4 col-sm-6" style="margin-top:20px">
+                <div class="col-lg-3 col-md-4 col-6" style="margin-top:20px">
                 <label class=" text-capitalize text-left" style="font-size:20px">Description<b> ${weather_des}</b></label>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6"style="margin-top:20px">
                     <label style="font-size:30px"><b>${temp}C°</b></label>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 "style="margin-top:20px">
+                <div class="col-lg-3 col-md-4 col-6 "style="margin-top:20px">
                 <label class=" text-capitalize text-right">City<b> ${city_name}</b></label>
                 </div>
-                <div class="col-lg-3 col-md-4 col-6 ml-4 mt-6"style="margin-top:20px"
+                <div class="col-lg-3 col-md-4 col-6 "style="margin-top:20px"
                     <label class=" text-capitalize text-right">Country<b> ${country}</b></label>
                 </div>
               
