@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 h1{
     font-family: 'Acme', sans-serif;
-    color: #0f2862
+     color:#900C3F;
+    
+
+    
 }
-body{
-    background-color: whitesmoke;
-}
+
 
 .btn1,.btn2{
     width:150px;
@@ -15,10 +16,20 @@ body{
    
 }
 
+.section1{
+    background-color: #34495E;
 
-
-
-
-.section2{
-    background-color:white;
+ 
 }
+.sections1,.sections2,.sections3,.sections4{
+   height: 200px;
+ 
+    padding: 10px;
+}
+.section2{
+    background-color: 	#F08080;
+    
+}
+
+
+
