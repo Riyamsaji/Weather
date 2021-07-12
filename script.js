@@ -17,38 +17,38 @@ function displayDetails(city) {
     `<div class="container">
   <h1 class="text-center"><b>${city_name}<b></h1>
   <div class="row align-items-start">
-    <div class="col">
+    <div class="col-lg-6 col-6">
       <img src="./icons/${iconid}.png">
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-6">
       <span style="font-size:40px">${temp}°C</span><br>
       <span>${weather_des}</span>
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-6">
       <span style="font-size:40px;"><b>${country}</b></span>
     </div>
   </div>
   <div class="row align-items-center">
-    <div class="col">
+    <div class="col-lg-6 col-6">
       <span><b>Latitude:${latitude}</b></span><br>
       <span><b>Longitude:${longitude}</b></span>
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-6">
      <span>Temperature-Max:${temp_max}</span><br>
      <span>Temperature-Min:${temp_min}</span>
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-6">
     <span>humidity:${humidity}</span><br>
     </div>
   </div>
   <div class="row align-items-end">
-    <div class="col">
+    <div class="col-lg-6 col-6">
     <span>sealevel:${sealevel}</span><br>
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-6">
     <span>Time-zone:${timezone}</span><br>
     </div>
-    <div class="col">
+    <div class="col-lg-6 col-6">
       <span>pressure:${Pressure}</span>
     </div>
   </div>
