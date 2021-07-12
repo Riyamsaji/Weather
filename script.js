@@ -14,58 +14,45 @@ function displayDetails(city) {
     let longitude = city.coord.lon;
     console.log(iconid);
     let html_data = 
-    `<div class="container-fluid mt-5 section2">
-   
-    <div class="row mb-3 mt-3">
-    <h5 class=" text-center text-uppercase" style="font-size:70px"><u>${city_name}</u></h5>
-  <div class="col-lg-6 col-md-6 col-6">
-    <div class="sections1" >
- 
-      <div class="sec1">
+    `<div class="container">
+  <h1 class="text-center"><b>${city_name}<b></h1>
+  <div class="row align-items-start">
+    <div class="col">
       <img src="./icons/${iconid}.png">
-        
-      <p style="font-size:50px;"><b>${weather_des}</b></p>
-  
-      
-       
-      </div>
+    </div>
+    <div class="col">
+      <span style="font-size:40px">${temp}°C</span><br>
+      <span>${weather_des}</span>
+    </div>
+    <div class="col">
+      <span style="font-size:40px;"><b>${country}</b></span>
     </div>
   </div>
-  <div class="col-lg-6 col-md-6 col-6">
-    <div class="sections2">
-      <div class="sec2">
-       
-        <p class=" text-center" style="font-size:50px;"><b>${temp}°C</b></p>
-        <p class="text-center">Temperature-minimum:${temp_min}</p>
-        <p class="text-center">Temperature-maximum${temp_max}</p>
-        <p class="text-center">${country}</p>
-      </div>
+  <div class="row align-items-center">
+    <div class="col">
+      <span><b>Latitude:${latitude}</b></span><br>
+      <span><b>Longitude:${longitude}</b></span>
+    </div>
+    <div class="col">
+     <span>Temperature-Max:${temp_max}</span><br>
+     <span>Temperature-Min:${temp_min}</span>
+    </div>
+    <div class="col">
+    <span>humidity:${humidity}</span><br>
     </div>
   </div>
-  <div class="col-sm-6 col-lg-6 col-md-6" style="margin-top:20px">
-  <div class="sections3">
-  <div class="sec3">
-      <p >Pressure:${Pressure}</p>
-      <p >Latitude:${latitude}</p>
-      <p >Longitude:${longitude}</p>
+  <div class="row align-items-end">
+    <div class="col">
+    <span>sealevel:${sealevel}</span><br>
     </div>
+    <div class="col">
+    <span>Time-zone:${timezone}</span><br>
     </div>
-    </div>
-  <div class="col-sm-6 col-lg-6 col-md-6"style="margin-top:20px">
-  <div class="sections4">
-    <div class="sec4 text-center">
-     
-      <p class=" text-center" style="font-size:30px;"><b>HUMIDTY:${humidity}</b></p>
-      <p >SEA-LEVEL:<u><b>${sealevel}<b><u></p>
-  
- 
+    <div class="col">
+      <span>pressure:${Pressure}</span>
     </div>
   </div>
-</div>
-
-</div>
- </div>`
-
+</div>`
 
     result.innerHTML = html_data;
 }
